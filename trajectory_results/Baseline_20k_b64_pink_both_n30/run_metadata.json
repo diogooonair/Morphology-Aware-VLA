@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-09-11T13:25:31.050564",
+  "checkpoint": "outputs/Baseline/020000/pretrained_model",
+  "urdf": "assets/robots/so101.urdf",
+  "task": "pick up the pink pen and place it in the white tray",
+  "robot_id": "soarm_101",
+  "execute": true,
+  "control_hz": 30.0,
+  "nominal_dt_s": 0.03333333333333333,
+  "duration_s": 30.0,
+  "num_trials_requested": 10,
+  "camera1": "/dev/video5",
+  "camera2": "/dev/video7",
+  "camera1_crop_x": [
+    140,
+    640
+  ],
+  "jerk_joint_order": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll"
+  ],
+  "jerk_units": "rad/s^3",
+  "gripper_included_in_jerk": false,
+  "n_action_steps": 30,
+  "success_detection": "human confirmation: press 's' in an OpenCV camera window"
+}

@@ -1,0 +1,72 @@
+{
+  "num_completed_executed_trajectories": 10,
+  "num_successes": 1,
+  "success_rate": 0.1,
+  "time_to_success_s": {
+    "mean": 29.96818789409008,
+    "std": 0.0,
+    "median": 29.96818789409008,
+    "min": 29.96818789409008,
+    "max": 29.96818789409008
+  },
+  "rms_joint_jerk_rad_s3": {
+    "mean": 279.9574879028995,
+    "std": 45.072767326102564,
+    "median": 266.10266449759143,
+    "min": 225.46234188930347,
+    "max": 364.10375517203687
+  },
+  "rms_velocity_rad_s": {
+    "mean": 0.23606760482983544,
+    "std": 0.02870671733998281,
+    "median": 0.2338359688678765,
+    "min": 0.20762765225034402,
+    "max": 0.3066433718402689
+  },
+  "rms_acceleration_rad_s2": {
+    "mean": 6.005029740075882,
+    "std": 1.0308401945833578,
+    "median": 5.666100281764617,
+    "min": 4.802584985160691,
+    "max": 7.95236144351721
+  },
+  "joint_path_length_rad": {
+    "mean": 11.435843161069952,
+    "std": 1.8626871513240184,
+    "median": 11.322274892243158,
+    "min": 9.352409584019064,
+    "max": 15.929040096410844
+  },
+  "safety": {
+    "total_action_cycles": 7815,
+    "urdf_violation_joint_count": 223,
+    "urdf_violation_cycle_count": 223,
+    "urdf_violation_cycle_rate": 0.02853486884197057,
+    "step_clamp_joint_count": 10110,
+    "step_clamp_cycle_count": 6154,
+    "step_clamp_cycle_rate": 0.7874600127959053,
+    "max_urdf_violation_deg": 2.0528030395507812,
+    "mean_trial_safety_correction_deg": {
+      "mean": 3.7784773751165757,
+      "std": 1.2049971383127474,
+      "median": 3.5019650653900274,
+      "min": 1.7025720878523223,
+      "max": 6.74220339262318
+    },
+    "max_safety_correction_deg": 92.45433044433594,
+    "per_joint_urdf_violation_count": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 12,
+      "elbow_flex": 0,
+      "wrist_flex": 211,
+      "wrist_roll": 0
+    },
+    "per_joint_step_clamp_count": {
+      "shoulder_pan": 204,
+      "shoulder_lift": 4802,
+      "elbow_flex": 4165,
+      "wrist_flex": 297,
+      "wrist_roll": 642
+    }
+  }
+}

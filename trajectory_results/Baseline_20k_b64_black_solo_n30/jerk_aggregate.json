@@ -1,0 +1,72 @@
+{
+  "num_completed_executed_trajectories": 10,
+  "num_successes": 0,
+  "success_rate": 0.0,
+  "time_to_success_s": {
+    "mean": null,
+    "std": null,
+    "median": null,
+    "min": null,
+    "max": null
+  },
+  "rms_joint_jerk_rad_s3": {
+    "mean": 219.26835263850654,
+    "std": 37.353334308361745,
+    "median": 232.36044336559868,
+    "min": 144.73694946910535,
+    "max": 273.06935904096787
+  },
+  "rms_velocity_rad_s": {
+    "mean": 0.1682168809461754,
+    "std": 0.04066498102444637,
+    "median": 0.16576425266616232,
+    "min": 0.10596024856980435,
+    "max": 0.23484424408661408
+  },
+  "rms_acceleration_rad_s2": {
+    "mean": 4.635311701077035,
+    "std": 0.8442970469574966,
+    "median": 4.862340456407015,
+    "min": 3.0446393684859765,
+    "max": 5.934494798552946
+  },
+  "joint_path_length_rad": {
+    "mean": 6.710751880853633,
+    "std": 2.7797747768305,
+    "median": 6.116262057680256,
+    "min": 2.9271909053820933,
+    "max": 11.483717400929413
+  },
+  "safety": {
+    "total_action_cycles": 7872,
+    "urdf_violation_joint_count": 253,
+    "urdf_violation_cycle_count": 253,
+    "urdf_violation_cycle_rate": 0.032139227642276426,
+    "step_clamp_joint_count": 5098,
+    "step_clamp_cycle_count": 3473,
+    "step_clamp_cycle_rate": 0.4411839430894309,
+    "max_urdf_violation_deg": 1.395111083984375,
+    "mean_trial_safety_correction_deg": {
+      "mean": 1.6797063281286835,
+      "std": 1.1751035286235587,
+      "median": 1.0966527687111483,
+      "min": 0.38111447077717275,
+      "max": 4.128729747621541
+    },
+    "max_safety_correction_deg": 69.17015838623047,
+    "per_joint_urdf_violation_count": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 253,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0
+    },
+    "per_joint_step_clamp_count": {
+      "shoulder_pan": 10,
+      "shoulder_lift": 2657,
+      "elbow_flex": 2254,
+      "wrist_flex": 29,
+      "wrist_roll": 148
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "trial": 3,
+  "task": "pick up the black pen and place it in the white tray",
+  "checkpoint": "outputs/Baseline/020000/pretrained_model",
+  "execute": true,
+  "completed": true,
+  "success": false,
+  "success_time_s": null,
+  "success_cycle": null,
+  "termination_reason": "duration_elapsed",
+  "num_cycles": 788,
+  "trajectory_csv": "trajectory_results/Baseline_20k_b64_black_solo_n30/so101_rollout_20260911_131627/trial_003_trajectory.csv",
+  "jerk_definition": "j_t=(q[t+3]-3*q[t+2]+3*q[t+1]-q[t])/(dt^3)",
+  "jerk_position_source": "measured SO101 arm joint positions from robot.get_observation()",
+  "jerk_units": "rad/s^3",
+  "gripper_included_in_jerk": false,
+  "rms_joint_jerk": {
+    "num_position_samples": 788,
+    "num_jerk_samples": 785,
+    "control_hz": 30.0,
+    "nominal_dt_s": 0.03333333333333333,
+    "per_joint_rms_rad_s3": {
+      "shoulder_pan": 181.8214725398015,
+      "shoulder_lift": 369.44381619123936,
+      "elbow_flex": 125.72573951686293,
+      "wrist_flex": 72.97805911431453,
+      "wrist_roll": 97.229961710376
+    },
+    "overall_rms_rad_s3": 200.06709141777594
+  },
+  "motion_metrics": {
+    "joint_path_length_rad": 4.753062295514649,
+    "rms_velocity_rad_s": 0.1422805920655612,
+    "rms_acceleration_rad_s2": 4.159476875779244,
+    "per_joint_rms_velocity_rad_s": {
+      "shoulder_pan": 0.11322819086742118,
+      "shoulder_lift": 0.28049795104521713,
+      "elbow_flex": 0.08033290327972138,
+      "wrist_flex": 0.04186479316415375,
+      "wrist_roll": 0.038898256888098996
+    },
+    "per_joint_rms_acceleration_rad_s2": {
+      "shoulder_pan": 3.970517206238226,
+      "shoulder_lift": 7.615877794806573,
+      "elbow_flex": 2.6670986127482466,
+      "wrist_flex": 1.4915596033802188,
+      "wrist_roll": 1.8443082360848284
+    }
+  },
+  "safety_metrics": {
+    "num_action_cycles": 788,
+    "urdf_violation_joint_count": 7,
+    "urdf_violation_cycle_count": 7,
+    "urdf_violation_cycle_rate": 0.008883248730964468,
+    "max_urdf_violation_deg": 0.40850067138671875,
+    "mean_urdf_violation_deg_over_violations": 0.2073091779436384,
+    "per_joint_urdf_violation_count": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 7,
+      "elbow_flex": 0,
+      "wrist_flex": 0,
+      "wrist_roll": 0
+    },
+    "step_clamp_joint_count": 303,
+    "step_clamp_cycle_count": 220,
+    "step_clamp_cycle_rate": 0.27918781725888325,
+    "per_joint_step_clamp_count": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 170,
+      "elbow_flex": 133,
+      "wrist_flex": 0,
+      "wrist_roll": 0
+    },
+    "mean_safety_correction_deg": 1.0619134215534036,
+    "max_safety_correction_deg": 64.09127044677734,
+    "mean_safety_correction_l2_deg": 3.935786262471919,
+    "gripper_hard_clamp_count": 107,
+    "gripper_step_clamp_count": 0
+  },
+  "timing_diagnostics": {
+    "mean_observed_dt_s": 0.03807949704183751,
+    "std_observed_dt_s": 0.024101133393902265,
+    "effective_observation_hz": 26.260851053292836
+  }
+}

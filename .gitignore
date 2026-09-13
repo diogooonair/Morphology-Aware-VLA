@@ -1,0 +1,9 @@
+# Local LeRobot source
+lerobot/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.idea/
+*.bak
+

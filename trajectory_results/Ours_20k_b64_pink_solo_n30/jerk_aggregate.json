@@ -1,0 +1,72 @@
+{
+  "num_completed_executed_trajectories": 10,
+  "num_successes": 4,
+  "success_rate": 0.4,
+  "time_to_success_s": {
+    "mean": 23.34351023650379,
+    "std": 2.626318326539986,
+    "median": 22.44834840251133,
+    "min": 20.991310868994333,
+    "max": 27.486033271998167
+  },
+  "rms_joint_jerk_rad_s3": {
+    "mean": 257.20147530232396,
+    "std": 19.485162977091207,
+    "median": 254.65633067566267,
+    "min": 228.00277062093375,
+    "max": 309.40915670156295
+  },
+  "rms_velocity_rad_s": {
+    "mean": 0.22809252368140548,
+    "std": 0.020885269237346467,
+    "median": 0.22315826042605408,
+    "min": 0.19692672046738788,
+    "max": 0.27726312643355283
+  },
+  "rms_acceleration_rad_s2": {
+    "mean": 5.369377867504807,
+    "std": 0.36885575796086734,
+    "median": 5.310581624880422,
+    "min": 4.82364912231615,
+    "max": 6.360843661784021
+  },
+  "joint_path_length_rad": {
+    "mean": 9.357212751273133,
+    "std": 1.0621307920875687,
+    "median": 9.376064234999976,
+    "min": 7.830464161295464,
+    "max": 11.37186771961592
+  },
+  "safety": {
+    "total_action_cycles": 7131,
+    "urdf_violation_joint_count": 276,
+    "urdf_violation_cycle_count": 276,
+    "urdf_violation_cycle_rate": 0.038704249053428695,
+    "step_clamp_joint_count": 7571,
+    "step_clamp_cycle_count": 4410,
+    "step_clamp_cycle_rate": 0.6184265881363062,
+    "max_urdf_violation_deg": 2.9090652465820312,
+    "mean_trial_safety_correction_deg": {
+      "mean": 2.985226737503981,
+      "std": 0.9040152603697487,
+      "median": 2.7497886715375595,
+      "min": 1.7501646351326456,
+      "max": 5.093861355038657
+    },
+    "max_safety_correction_deg": 80.38245391845703,
+    "per_joint_urdf_violation_count": {
+      "shoulder_pan": 0,
+      "shoulder_lift": 87,
+      "elbow_flex": 0,
+      "wrist_flex": 189,
+      "wrist_roll": 0
+    },
+    "per_joint_step_clamp_count": {
+      "shoulder_pan": 224,
+      "shoulder_lift": 3215,
+      "elbow_flex": 2558,
+      "wrist_flex": 519,
+      "wrist_roll": 1055
+    }
+  }
+}
